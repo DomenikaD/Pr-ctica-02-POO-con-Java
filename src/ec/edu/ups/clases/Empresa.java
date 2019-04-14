@@ -18,7 +18,6 @@ public class Empresa {
     private String nombreEmpresa;
     private String telefono;
     private Date fechaDeApertura;
-    
-    
+
     
 }

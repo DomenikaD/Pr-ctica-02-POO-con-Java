@@ -9,7 +9,7 @@ package ec.edu.ups.clases;
  *
  * @author Domenika Delgado
  */
-public class Cliente {
+public class Cliente extends Persona {
     
     //Atributos de la clase Hija Cliente
     private int codigoCliente;

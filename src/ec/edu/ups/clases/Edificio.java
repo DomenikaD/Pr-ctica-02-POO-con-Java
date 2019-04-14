@@ -9,7 +9,7 @@ package ec.edu.ups.clases;
  *
  * @author Domenika Delgado
  */
-public class Edificio {
+public class Edificio extends Empresa {
     
     //Atributos de la clase Padre Edificio
     private int numeroEdificio;
@@ -17,4 +17,5 @@ public class Edificio {
     private String personaEncargada;
     private String direccion;
     
+  
 }

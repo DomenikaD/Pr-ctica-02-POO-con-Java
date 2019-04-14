@@ -9,7 +9,7 @@ package ec.edu.ups.clases;
  *
  * @author Domenika Delgado
  */
-public class Restaurante {
+public class Restaurante extends Edificio{
     
    //Atributos de la clase Hija Restaurante
     private int numeroMesa;

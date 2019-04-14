@@ -9,7 +9,7 @@ package ec.edu.ups.clases;
  *
  * @author Domenika Delgado
  */
-public class Persona {
+public class Persona extends Empresa {
     
     //Atributos de la clase Padre Persona
     private String cedula;
