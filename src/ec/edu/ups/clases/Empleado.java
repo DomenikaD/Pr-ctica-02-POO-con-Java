@@ -41,4 +41,43 @@ public class Empleado extends Persona {
     }
     
     
+    //Getters & Setters
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+
+    public String getCargo() {
+        return cargo;
+    }
+
+    public void setCargo(String cargo) {
+        this.cargo = cargo;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
+    public Date getHorario() {
+        return horario;
+    }
+
+    public void setHorario(Date horario) {
+        this.horario = horario;
+    }
+    
+    //toString
+    @Override
+    public String toString() {
+        return "Empleado{" + "codigo=" + codigo + ", cargo=" + cargo + ", salario=" + salario + ", horario=" + horario + '}';
+    }
+    
 }

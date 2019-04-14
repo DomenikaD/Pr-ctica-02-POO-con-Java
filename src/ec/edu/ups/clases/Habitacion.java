@@ -43,7 +43,46 @@ public class Habitacion extends Edificio {
         this.fechaSalida = fechaSalida;
     }
     
+    
+    //Getters & Setters
+    public int getNumeroCuarto() {
+        return numeroCuarto;
+    }
+
+    public void setNumeroCuarto(int numeroCuarto) {
+        this.numeroCuarto = numeroCuarto;
+    }
+
+    public int getNumeroPersonas() {
+        return numeroPersonas;
+    }
+
+    public void setNumeroPersonas(int numeroPersonas) {
+        this.numeroPersonas = numeroPersonas;
+    }
+
+    public Date getFechaIngreso() {
+        return fechaIngreso;
+    }
+
+    public void setFechaIngreso(Date fechaIngreso) {
+        this.fechaIngreso = fechaIngreso;
+    }
+
+    public Date getFechaSalida() {
+        return fechaSalida;
+    }
+
+    public void setFechaSalida(Date fechaSalida) {
+        this.fechaSalida = fechaSalida;
+    }
+    
      
+    //toString
+    @Override
+    public String toString() {
+        return "Habitacion{" + "numeroCuarto=" + numeroCuarto + ", numeroPersonas=" + numeroPersonas + ", fechaIngreso=" + fechaIngreso + ", fechaSalida=" + fechaSalida + '}';
+    }
     
     
 }

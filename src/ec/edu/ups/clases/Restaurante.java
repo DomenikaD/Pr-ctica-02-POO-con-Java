@@ -41,6 +41,45 @@ public class Restaurante extends Edificio{
         this.calificacion = calificacion;
     }
     
+    //Getters & Setters
+    public int getNumeroMesa() {
+        return numeroMesa;
+    }
+
+    public void setNumeroMesa(int numeroMesa) {
+        this.numeroMesa = numeroMesa;
+    }
+
+    public int getCantidadPersona() {
+        return cantidadPersona;
+    }
+
+    public void setCantidadPersona(int cantidadPersona) {
+        this.cantidadPersona = cantidadPersona;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    public int getCalificacion() {
+        return calificacion;
+    }
+
+    public void setCalificacion(int calificacion) {
+        this.calificacion = calificacion;
+    }
+    
+    
+    //toString
+    @Override
+    public String toString() {
+        return "Restaurante{" + "numeroMesa=" + numeroMesa + ", cantidadPersona=" + cantidadPersona + ", descripcion=" + descripcion + ", calificacion=" + calificacion + '}';
+    }
     
     
     

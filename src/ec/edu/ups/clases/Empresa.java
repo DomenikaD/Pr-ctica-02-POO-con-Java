@@ -37,5 +37,46 @@ public class Empresa {
         this.telefonoEmpresa = telefonoEmpresa;
         this.fechaDeApertura = fechaDeApertura;
     }
+    
+    //Getters & Setters
+    public String getNombredueno() {
+        return nombredueno;
+    }
 
+    public void setNombredueno(String nombredueno) {
+        this.nombredueno = nombredueno;
+    }
+
+    public String getNombreEmpresa() {
+        return nombreEmpresa;
+    }
+
+    public void setNombreEmpresa(String nombreEmpresa) {
+        this.nombreEmpresa = nombreEmpresa;
+    }
+
+    public String getTelefonoEmpresa() {
+        return telefonoEmpresa;
+    }
+
+    public void setTelefonoEmpresa(String telefonoEmpresa) {
+        this.telefonoEmpresa = telefonoEmpresa;
+    }
+
+    public Date getFechaDeApertura() {
+        return fechaDeApertura;
+    }
+
+    public void setFechaDeApertura(Date fechaDeApertura) {
+        this.fechaDeApertura = fechaDeApertura;
+    }
+    
+
+    
+    //toString
+    @Override
+    public String toString() {
+        return "Empresa{" + "nombredueno=" + nombredueno + ", nombreEmpresa=" + nombreEmpresa + ", telefonoEmpresa=" + telefonoEmpresa + ", fechaDeApertura=" + fechaDeApertura + '}';
+    }
+    
 }

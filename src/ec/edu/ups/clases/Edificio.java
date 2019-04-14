@@ -41,6 +41,45 @@ public class Edificio extends Empresa {
         this.direccion = direccion;
     }
     
+    //Getters & Setters
+    public int getNumeroEdificio() {
+        return numeroEdificio;
+    }
+
+    public void setNumeroEdificio(int numeroEdificio) {
+        this.numeroEdificio = numeroEdificio;
+    }
+
+    public int getNumeroPiso() {
+        return numeroPiso;
+    }
+
+    public void setNumeroPiso(int numeroPiso) {
+        this.numeroPiso = numeroPiso;
+    }
+
+    public String getPersonaEncargada() {
+        return personaEncargada;
+    }
+
+    public void setPersonaEncargada(String personaEncargada) {
+        this.personaEncargada = personaEncargada;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+    
+    
+    //toString
+    @Override
+    public String toString() {
+        return "Edificio{" + "numeroEdificio=" + numeroEdificio + ", numeroPiso=" + numeroPiso + ", personaEncargada=" + personaEncargada + ", direccion=" + direccion + '}';
+    }
     
     
 
