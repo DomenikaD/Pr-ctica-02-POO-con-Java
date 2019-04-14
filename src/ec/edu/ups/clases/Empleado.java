@@ -5,10 +5,19 @@
  */
 package ec.edu.ups.clases;
 
+import java.util.Date;
+
 /**
  *
  * @author Domenika Delgado
  */
 public class Empleado {
+    
+    //Atributos de la clase Hija Empleado
+    private int codigo;
+    private String cargo;
+    private double salario;
+    private Date horario;
+    
     
 }

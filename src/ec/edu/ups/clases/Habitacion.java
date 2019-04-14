@@ -5,10 +5,18 @@
  */
 package ec.edu.ups.clases;
 
+import java.util.Date;
+
 /**
  *
  * @author Domenika Delgado
  */
 public class Habitacion {
+    
+   //Atributos de la clase Hija Habitacion
+    private int numeroCuarto;
+    private int numeroPersonas;
+    private Date fechaIngreso;
+    private Date fechaSalida;
     
 }

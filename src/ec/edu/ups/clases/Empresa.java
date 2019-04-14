@@ -5,10 +5,20 @@
  */
 package ec.edu.ups.clases;
 
+import java.util.Date;
+
 /**
  *
  * @author Domenika Delgado
  */
 public class Empresa {
+    
+    //Atributos de la clase Abuelo Empresa
+    private String nombredueno;
+    private String nombreEmpresa;
+    private String telefono;
+    private Date fechaDeApertura;
+    
+    
     
 }

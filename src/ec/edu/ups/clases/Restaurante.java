@@ -11,4 +11,11 @@ package ec.edu.ups.clases;
  */
 public class Restaurante {
     
+   //Atributos de la clase Hija Restaurante
+    private int numeroMesa;
+    private int cantidadPersona;
+    private String descripcion;
+    private int calificacion;
+    
+    
 }

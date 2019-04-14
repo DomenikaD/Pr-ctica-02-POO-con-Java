@@ -11,4 +11,11 @@ package ec.edu.ups.clases;
  */
 public class Cliente {
     
+    //Atributos de la clase Hija Cliente
+    private int codigoCliente;
+    private String direccion;
+    private String correo;
+    private String telefono;
+    
+    
 }

@@ -11,4 +11,10 @@ package ec.edu.ups.clases;
  */
 public class Persona {
     
+    //Atributos de la clase Padre Persona
+    private String cedula;
+    private String nombre;
+    private String apellido;
+    private int edad;
+    
 }

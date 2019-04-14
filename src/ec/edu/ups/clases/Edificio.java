@@ -11,4 +11,10 @@ package ec.edu.ups.clases;
  */
 public class Edificio {
     
+    //Atributos de la clase Padre Edificio
+    private int numeroEdificio;
+    private int numeroPiso;
+    private String personaEncargada;
+    private String direccion;
+    
 }
