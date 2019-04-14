@@ -83,6 +83,19 @@ public class Cliente extends Persona {
         return "Cliente{" + "codigoCliente=" + codigoCliente + ", direccion=" + direccion + ", correo=" + correo + ", telefono=" + telefono + '}';
     }
     
+    //Metodo para agregar un cliente
+    public boolean agregarCliente(int codigoCliente, String direccion, String correo, String telefono){
+        return false;
+    }
     
     
+    //Metodo para modificar datos del cliente
+    public boolean modificarCliente(int codigoCliente, String direccion, String correo, String telefono){
+        return false;
+    }
+    
+    //Metodo para eliminar cliente
+    public boolean eliminarCliente(int codigoCliente){
+        return false;
+    }
 }

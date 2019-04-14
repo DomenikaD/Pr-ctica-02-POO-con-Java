@@ -85,4 +85,22 @@ public class Habitacion extends Edificio {
     }
     
     
+    //Metodo para reservar habitacion
+    public boolean reservarHabitacion(int numeroCuarto, int numeroPersonas, Date fechaIngreso, Date fechaSalida){
+        return false;
+    }
+    
+    
+    //Metodo para cancelar la habitacion
+    public boolean cancelarHabitacion(int numeroCuarto){
+        return false;
+    }
+    
+    //Metodo para el costo de la habitacion
+    public double costo(Date fechaIngreso, Date fechaSalida){
+        return 0;
+        
+    }
 }
+
+

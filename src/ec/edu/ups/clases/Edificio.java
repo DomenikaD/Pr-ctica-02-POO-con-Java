@@ -82,8 +82,22 @@ public class Edificio extends Empresa {
     }
     
     
-
-
+    //Metodo para asignar a una persona su cargo
+    public void asignarPersona( String personaEncargada, int numeroEdificio){
+        
+    }
+    
+    
+    //Metodo para agregar un Edificio
+    public boolean agregarEdificio(int numeroEdificio, int numeroPiso){
+        return false;
+    }
+    
+    
+    //Metoso para eliminar un Edificio
+    public void eliminarEdificio(int numeroEdificio){
+        
+    }
 
 
 }

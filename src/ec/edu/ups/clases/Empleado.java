@@ -80,4 +80,20 @@ public class Empleado extends Persona {
         return "Empleado{" + "codigo=" + codigo + ", cargo=" + cargo + ", salario=" + salario + ", horario=" + horario + '}';
     }
     
+    
+    //Metodo para crear al empleado
+    public boolean crearEmpleado(int codigo, String cargo, double salario, Date horario){
+        return false;
+    }
+    
+    //Metodo para modificar datos de un empleado
+    public boolean modificarEmpleado(int codigo, String cargo, double salario, Date horario){
+        return false;
+    }
+    
+    //Metodo para eliminar un empleado
+    public boolean emliminarEmpleado(int codigo){
+        return false;
+    }
 }
+

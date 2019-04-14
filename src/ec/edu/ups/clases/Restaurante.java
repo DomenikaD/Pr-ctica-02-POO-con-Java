@@ -81,7 +81,20 @@ public class Restaurante extends Edificio{
         return "Restaurante{" + "numeroMesa=" + numeroMesa + ", cantidadPersona=" + cantidadPersona + ", descripcion=" + descripcion + ", calificacion=" + calificacion + '}';
     }
     
+    //Metodo para agregar la calificacion del restuaurante
+    public boolean agregarCalificacion(int numeroMesa, int cantidadPersona, String descripcion, int calificacion){
+        return false;
+    }
     
     
+    //Metodo para modificar la calficacion ya ingresada del restaurante
+    public boolean modificarCalificacion(int numeroMesa, int cantidadPersona, String descripcion, int calificacion){
+        return false;
+    }
     
+    
+    //Metodo para ingresar una mesa
+    public void ingresarMesa(int numeroMesa, int cantidadPersona){
+        
+    }
 }

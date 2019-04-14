@@ -71,7 +71,6 @@ public class Empresa {
         this.fechaDeApertura = fechaDeApertura;
     }
     
-
     
     //toString
     @Override
@@ -79,4 +78,19 @@ public class Empresa {
         return "Empresa{" + "nombredueno=" + nombredueno + ", nombreEmpresa=" + nombreEmpresa + ", telefonoEmpresa=" + telefonoEmpresa + ", fechaDeApertura=" + fechaDeApertura + '}';
     }
     
+    
+    //Metodo de agregar una Empresa
+    public boolean agregarEmpresa(String nombreDueno, String nombreEmpresa, String telefonoEmpresa, Date fechaApertua){
+        return false;
+    }
+    
+    //Metodo para modificar nombre de la Empresa
+    public void modificarNombreEmpresa(String nombreDueno, String nombreEmpresa){
+        
+    }
+    
+    //Metodo para eliminar empresa
+    public void eliminarEmpresa(String nombreDueno, String nombreEmpresa){
+        
+    }
 }

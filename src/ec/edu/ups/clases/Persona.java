@@ -81,5 +81,19 @@ public class Persona extends Empresa {
     }
     
     
+    //Metodo para crear a la persona
+    public boolean crearPersona(String cedula, String nombre, String apellido, int edad){
+        return false;
+    }
     
+    
+    //Metodo para modificar datos de la Persona
+    public boolean modificarPersona(String cedula, String nombre, String apellido, int edad){
+        return false;
+    }
+    
+    //Metodo para eliminar persona
+    public boolean eliminarPersona(String cedula){
+        return false;
+    }
 }
