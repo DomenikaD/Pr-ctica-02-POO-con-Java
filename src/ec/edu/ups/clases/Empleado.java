@@ -19,5 +19,26 @@ public class Empleado extends Persona {
     private double salario;
     private Date horario;
     
+    //Constructor Vacio
+    public Empleado() {
+    }
+    
+    //Constructor con atibutos propios (Clase Empleado)
+    public Empleado(int codigo, String cargo, double salario, Date horario) {
+        this.codigo = codigo;
+        this.cargo = cargo;
+        this.salario = salario;
+        this.horario = horario;
+    }
+    
+    //Constructor con los Atributos de la clase Padre (Persona) mas atributos propios (Clase Empleado)
+    public Empleado(int codigo, String cargo, double salario, Date horario, String cedula, String nombre, String apellido, int edad, String nombredueno, String nombreEmpresa, String telefonoEmpresa, Date fechaDeApertura) {
+        super(cedula, nombre, apellido, edad, nombredueno, nombreEmpresa, telefonoEmpresa, fechaDeApertura);
+        this.codigo = codigo;
+        this.cargo = cargo;
+        this.salario = salario;
+        this.horario = horario;
+    }
+    
     
 }

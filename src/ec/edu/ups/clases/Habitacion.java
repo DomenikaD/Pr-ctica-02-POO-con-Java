@@ -19,4 +19,31 @@ public class Habitacion extends Edificio {
     private Date fechaIngreso;
     private Date fechaSalida;
     
+    
+    //Constructor Vacio
+    public Habitacion() {
+    }
+    
+    
+    //Constructor con atributos propios (Clase Habitacion)
+    public Habitacion(int numeroCuarto, int numeroPersonas, Date fechaIngreso, Date fechaSalida) {
+        this.numeroCuarto = numeroCuarto;
+        this.numeroPersonas = numeroPersonas;
+        this.fechaIngreso = fechaIngreso;
+        this.fechaSalida = fechaSalida;
+    }
+    
+     
+    //Constructor con los Atributos de la clase Padre (Edificio) mas atributos propios (Clase Habitacion)
+    public Habitacion(int numeroCuarto, int numeroPersonas, Date fechaIngreso, Date fechaSalida, int numeroEdificio, int numeroPiso, String personaEncargada, String direccion, String nombredueno, String nombreEmpresa, String telefonoEmpresa, Date fechaDeApertura) {
+        super(numeroEdificio, numeroPiso, personaEncargada, direccion, nombredueno, nombreEmpresa, telefonoEmpresa, fechaDeApertura);
+        this.numeroCuarto = numeroCuarto;
+        this.numeroPersonas = numeroPersonas;
+        this.fechaIngreso = fechaIngreso;
+        this.fechaSalida = fechaSalida;
+    }
+    
+     
+    
+    
 }
