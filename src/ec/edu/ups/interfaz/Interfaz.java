@@ -12,8 +12,8 @@ package ec.edu.ups.interfaz;
 public interface Interfaz {
     
     //Se refiere al lugar en donde se ecuentra 
-    public abstract void ubicacion();
+    public abstract String ubicacion();
     
-    public abstract void informacion();
+    public abstract String informacion();
  
 }

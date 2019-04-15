@@ -108,12 +108,13 @@ public final class Restaurante extends Edificio implements Interfaz{
     
     //Implementacion de los Metodos Abstractos del Paquete ec.edu.ups.interfaz (Clase Interfaz)
     @Override
-    public void ubicacion() {
-        
+    public String ubicacion() {
+        return "Ubicacion " + super.getDireccion();
     }
     
     @Override
-    public void informacion() {
+    public String informacion() {
+        return "Nombre "+ super.getNombredueno();
     }
     
 }

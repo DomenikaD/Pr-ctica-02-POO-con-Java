@@ -7,6 +7,7 @@ package ec.edu.ups.clases;
 
 import ec.edu.ups.interfaz.Interfaz;
 import java.util.Date;
+import java.util.GregorianCalendar;
 
 /**
  *
@@ -40,7 +41,7 @@ public final class Empleado extends Persona implements Interfaz {
         this.salario = salario;
         this.horario = horario;
     }
-    
+
     
     //Getters & Setters
     public int getCodigo() {
@@ -108,14 +109,15 @@ public final class Empleado extends Persona implements Interfaz {
     
     //Implementacion de los Metodos Abstractos del Paquete ec.edu.ups.interfaz (Clase Interfaz)
     @Override
-    public void ubicacion() {
+    public String ubicacion() {
+         return "Ubicacion " + super.getNombreEmpresa();
         
     }
     
 
     @Override
-    public void informacion() {
-        
+    public String informacion() {
+        return "Nombre "+ super.getNombre() + super.getApellido();
     }
 }
 

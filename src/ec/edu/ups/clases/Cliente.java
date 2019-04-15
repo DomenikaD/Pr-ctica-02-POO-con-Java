@@ -107,13 +107,15 @@ public final class Cliente extends Persona implements Interfaz {
         return false;
     }
 
+    //Implementacion de los Metodos Abstractos del Paquete ec.edu.ups.interfaz (Clase Interfaz)
     @Override
-    public void ubicacion() {
+    public String ubicacion() {
+        return "Ubicacion " + super.getNombreEmpresa();
         
     }
 
     @Override
-    public void informacion() {
-        
+    public String informacion() {
+        return "Nombre "+ super.getNombre() + super.getApellido();
     }
 }
