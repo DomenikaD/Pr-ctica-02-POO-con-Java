@@ -11,7 +11,7 @@ import java.util.Date;
  *
  * @author Domenika Delgado
  */
-public class Empresa {
+public class Empresa { 
     
     //Atributos de la clase Abuelo Empresa
     private String nombredueno;

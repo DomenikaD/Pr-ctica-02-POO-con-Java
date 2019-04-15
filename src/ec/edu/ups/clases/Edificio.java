@@ -20,7 +20,7 @@ public abstract class Edificio extends Empresa {
     private String direccion;
     
     //Constructor Vacio
-    public Edificio() {
+    public Edificio() { 
     }
     
     //Constructor con todos los atributos propios (Clase Edificio)
@@ -97,6 +97,10 @@ public abstract class Edificio extends Empresa {
     public void eliminarEdificio(int numeroEdificio){
         
     }
+    
+    //Metodo Abstracto
+    public abstract boolean verificarEdificio();
+    
 
 
 }

@@ -95,5 +95,12 @@ public final class Empleado extends Persona {
     public boolean emliminarEmpleado(int codigo){
         return false;
     }
+
+    
+    //Implementacion del Metodo Abstracto de la clase Padre(Persona)
+    @Override  
+    public boolean VerificarPersona() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
 

@@ -96,4 +96,7 @@ public abstract class Persona extends Empresa {
     public boolean eliminarPersona(String cedula){
         return false;
     }
+    
+    //Metodo Abstracto
+    public abstract boolean VerificarPersona();  
 }

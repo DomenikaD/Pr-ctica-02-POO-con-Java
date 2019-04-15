@@ -98,4 +98,11 @@ public final class Cliente extends Persona {
     public boolean eliminarCliente(int codigoCliente){
         return false;
     }
+
+    
+    //Implementacion del Metodo Abstracto de la clase Padre(Persona)  
+    @Override
+    public boolean VerificarPersona() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

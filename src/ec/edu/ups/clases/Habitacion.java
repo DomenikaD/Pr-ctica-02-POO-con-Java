@@ -101,6 +101,13 @@ public final class Habitacion extends Edificio {
         return 0;
         
     }
+
+    //Implementacion del Metodo Abstracto de la clase Padre(Edifico) 
+    @Override
+    public boolean verificarEdificio() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
 }
 
 

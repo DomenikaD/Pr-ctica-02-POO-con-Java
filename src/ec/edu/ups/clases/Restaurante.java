@@ -97,4 +97,11 @@ public final class Restaurante extends Edificio{
     public void ingresarMesa(int numeroMesa, int cantidadPersona){
         
     }
+
+    //Implementacion del Metodo Abstracto de la clase Padre(Edifico) 
+    @Override
+    public boolean verificarEdificio() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
 }
