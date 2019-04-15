@@ -11,7 +11,7 @@ import java.util.Date;
  *
  * @author Domenika Delgado
  */
-public class Empleado extends Persona {
+public final class Empleado extends Persona { 
     
     //Atributos de la clase Hija Empleado
     private int codigo;

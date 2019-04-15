@@ -11,7 +11,7 @@ import java.util.Date;
  *
  * @author Domenika Delgado
  */
-public class Persona extends Empresa {
+public abstract class Persona extends Empresa {
     
     //Atributos de la clase Padre Persona
     private String cedula;

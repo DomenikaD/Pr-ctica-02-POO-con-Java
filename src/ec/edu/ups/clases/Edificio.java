@@ -11,7 +11,7 @@ import java.util.Date;
  *
  * @author Domenika Delgado
  */
-public class Edificio extends Empresa {
+public abstract class Edificio extends Empresa {
     
     //Atributos de la clase Padre Edificio
     private int numeroEdificio;
@@ -22,7 +22,6 @@ public class Edificio extends Empresa {
     //Constructor Vacio
     public Edificio() {
     }
-    
     
     //Constructor con todos los atributos propios (Clase Edificio)
     public Edificio(int numeroEdificio, int numeroPiso, String personaEncargada, String direccion) {

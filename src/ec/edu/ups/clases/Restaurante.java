@@ -11,7 +11,7 @@ import java.util.Date;
  *
  * @author Domenika Delgado
  */
-public class Restaurante extends Edificio{
+public final class Restaurante extends Edificio{ 
     
    //Atributos de la clase Hija Restaurante
     private int numeroMesa;
