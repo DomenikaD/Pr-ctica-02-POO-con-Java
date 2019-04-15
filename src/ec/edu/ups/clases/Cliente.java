@@ -5,13 +5,14 @@
  */
 package ec.edu.ups.clases;
 
+import ec.edu.ups.interfaz.Interfaz;
 import java.util.Date;
 
 /**
  *
  * @author Domenika Delgado
  */
-public final class Cliente extends Persona { 
+public final class Cliente extends Persona implements Interfaz { 
     
     //Atributos de la clase Hija Cliente
     private int codigoCliente;
@@ -103,6 +104,16 @@ public final class Cliente extends Persona {
     //Implementacion del Metodo Abstracto de la clase Padre(Persona)  
     @Override
     public boolean VerificarPersona() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return false;
+    }
+
+    @Override
+    public void ubicacion() {
+        
+    }
+
+    @Override
+    public void informacion() {
+        
     }
 }

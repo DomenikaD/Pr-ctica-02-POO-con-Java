@@ -5,13 +5,14 @@
  */
 package ec.edu.ups.clases;
 
+import ec.edu.ups.interfaz.Interfaz;
 import java.util.Date;
 
 /**
  *
  * @author Domenika Delgado
  */
-public final class Habitacion extends Edificio { 
+public final class Habitacion extends Edificio implements Interfaz { 
     
    //Atributos de la clase Hija Habitacion
     private int numeroCuarto;
@@ -105,7 +106,19 @@ public final class Habitacion extends Edificio {
     //Implementacion del Metodo Abstracto de la clase Padre(Edifico) 
     @Override
     public boolean verificarEdificio() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return false;
+    }
+
+    
+    //Implementacion de los Metodos Abstractos del Paquete ec.edu.ups.interfaz (Clase Interfaz)
+    @Override
+    public void ubicacion() {
+        
+    }
+
+    @Override
+    public void informacion() {
+       
     }
     
 }
