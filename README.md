@@ -12,32 +12,49 @@ ACTIVIDADES DESARROLLADAS
                         Usuario: DomenikaD
                         Link: https://github.com/DomenikaD/Pr-ctica-02-POO-con-Java
  
-
-
-
-
+![image](https://user-images.githubusercontent.com/49033904/58931394-2cff9d80-8725-11e9-8325-0467685f0886.png)
 
 
 
 2.	Commits:
 
- 
-  
+![image](https://user-images.githubusercontent.com/49033904/58931403-37219c00-8725-11e9-92a2-2242c3aa598d.png)
+
+![image](https://user-images.githubusercontent.com/49033904/58931405-3ab52300-8725-11e9-8e65-3fafbd503a76.png)
+   
  
 3.	Paquetes de clases, interfaz y main:
+
+
+![image](https://user-images.githubusercontent.com/49033904/58931418-3e48aa00-8725-11e9-9c63-25b69c50c595.png)
  
 4.	Jerarquía de clases:
 
 Clase Abuelo:
+
+![image](https://user-images.githubusercontent.com/49033904/58931428-456fb800-8725-11e9-86c1-3e20946cfe04.png)
  
 Clases Padres:
+
+![image](https://user-images.githubusercontent.com/49033904/58931436-4a346c00-8725-11e9-89b8-881a98574995.png)
+
+![image](https://user-images.githubusercontent.com/49033904/58931439-4ef92000-8725-11e9-9747-88004e5664c0.png)
   
 Clases Hijas:
 
 Hijas (Habitación & Restaurante) de Padre (Edificio)
+
+![image](https://user-images.githubusercontent.com/49033904/58931441-53bdd400-8725-11e9-95e0-27b207b39dbb.png)
+
+![image](https://user-images.githubusercontent.com/49033904/58931448-57e9f180-8725-11e9-8ba5-c5bcaad5e662.png)
   
 
 Hijas (Cliente & Empleado) de Padre (Persona)
+
+![image](https://user-images.githubusercontent.com/49033904/58931454-5b7d7880-8725-11e9-855b-540e5f65d60c.png)
+
+![image](https://user-images.githubusercontent.com/49033904/58931458-60422c80-8725-11e9-88fd-c5b7da65dafb.png)
+
   
 
 5.	Atributos, metodos, Getters & Setters y toString:
@@ -664,19 +681,24 @@ Clase Empleado
     }
 }
 6.	Clases Padres y sus métodos abstractos:
+
 Clase Padre(Edificio)
 //Metodo Abstracto
     public abstract boolean verificarEdificio();
+    
 Clase Padre(Persona)
 //Metodo Abstracto
     public abstract boolean VerificarPersona(); 
+    
 7.	Implementacion de los metodos abstractos en las clases hijas:
+
 Clase Habitación:
 //Implementacion del Metodo Abstracto de la clase Padre(Edifico) 
     @Override
     public boolean verificarEdificio() {
         return false;
     }
+    
 
 Clase Restaurante:
  //Implementacion del Metodo Abstracto de la clase Padre(Edifico) 
@@ -685,6 +707,7 @@ Clase Restaurante:
         return false; 
     }
 
+
 Clase Cliente:
 //Implementacion del Metodo Abstracto de la clase Padre(Persona)  
     @Override
@@ -692,47 +715,59 @@ Clase Cliente:
         return false;
     }
 
+
 Clase Empleado:
 //Implementacion del Metodo Abstracto de la clase Padre(Persona)
     @Override  
     public boolean VerificarPersona() {
         return false;
     }
+    
 8.	Clases hijas son clases finales:
+
 Clase Habitación
+
+![image](https://user-images.githubusercontent.com/49033904/58931478-74862980-8725-11e9-8207-17b5dd02d7a4.png)
  
 Clase Restaurante
+
+![image](https://user-images.githubusercontent.com/49033904/58931482-78b24700-8725-11e9-865e-56a4d1bea1b9.png)
  
 Clase Cliente
- 
+
+![image](https://user-images.githubusercontent.com/49033904/58931489-7cde6480-8725-11e9-8944-5522cbd40bba.png)
+
 Clase Empleado
+
+![image](https://user-images.githubusercontent.com/49033904/58931493-8071eb80-8725-11e9-987a-c9fd0a8f35c6.png)
  
 9.	Creación de interfaz e implementación de los métodos en las clases hijas
  
+![image](https://user-images.githubusercontent.com/49033904/58931507-8667cc80-8725-11e9-840b-ca8d1ba2799c.png)
 
-
- 
+![image](https://user-images.githubusercontent.com/49033904/58931514-8bc51700-8725-11e9-9d10-0ba6e0e714d2.png) 
 
 Clase Habitación
 
- 
+![image](https://user-images.githubusercontent.com/49033904/58931520-9089cb00-8725-11e9-80b0-f721d5ac7f31.png) 
 
 Clase Restaurante
 
- 
+![image](https://user-images.githubusercontent.com/49033904/58931522-941d5200-8725-11e9-8a76-82bb3feca727.png) 
 
 Clase Cliente
 
- 
+![image](https://user-images.githubusercontent.com/49033904/58931530-9b446000-8725-11e9-9cf0-fdbb39d63459.png)
 
 Clase Empleado
 
+![image](https://user-images.githubusercontent.com/49033904/58931537-9ed7e700-8725-11e9-9e9d-e5800ca48a4c.png)
  
 10.	Creación de la Clase Main, demostración del downCasting e clases anónimas: 
+
 Clase Main
  
-
-
+![image](https://user-images.githubusercontent.com/49033904/58931540-a39c9b00-8725-11e9-9497-1226a8279b0a.png)
 
 
 package ec.edu.ups.main;
@@ -848,16 +883,31 @@ public class Main {
 
 downCasting
 
- 
+![image](https://user-images.githubusercontent.com/49033904/58931545-ab5c3f80-8725-11e9-80ca-ffa78fc770c5.png) 
 
 Clase Anónima 
 
+![image](https://user-images.githubusercontent.com/49033904/58931547-ae573000-8725-11e9-8603-75052c3cee86.png)
  
 RESULTADO(S) OBTENIDO(S):
+
+![image](https://user-images.githubusercontent.com/49033904/58931552-b4e5a780-8725-11e9-99f5-b66cef0ff8c9.png)
  
 11.	Diagrama de Clases 
+
+![image](https://user-images.githubusercontent.com/49033904/58931560-bb741f00-8725-11e9-9ba8-ce8488707150.png)
+
+
+
 CONCLUSIONES: En esta práctica podemos concluir que tenemos los conocimientos más claros sobre la interfaz y sobre los métodos abstractos y como función un downCasting con si implementación de instanceof.
+
+
 RECOMENDACIONES: Lo que puedo recomendar en esta práctica es de tener muy en cuenta de las heredaciones ya que hay algunas variables que se puede duplicar en diferentes clases pero ya están heredadas desde otras.
 
 
+Nombre del Estudiante: Domenika Delgado
+
+Firma: 
+
+![image](https://user-images.githubusercontent.com/49033904/58931568-c5961d80-8725-11e9-8b26-4a81a32eb405.png)
 
